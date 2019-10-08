@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>contacto</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+  h1{
+    position: fixed;
+    left: 90px;
+    top: 150px;
+    font-size: 100px;
+  }
+  h2{
+     position: fixed;
+    left: 90px;
+    top: 300px;
+    font-size: 50px;
+  }
+  .contacto1{
+    position: fixed;
+    left: 300px;
+    top: 570px;
+    font-size: 10px;
+  }
+  </style>
+<body>
+  <div class="container">
+  <section id="home">
+     <nav class="navbar navbar-expand-md fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html" id="home1">HOME</a>
+      <li class="nav-item">
+        <a class="nav-link" id="sobre-mi" href="sobre-mi.html">SOBRE MI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="portafolio" href="portafolio.html">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" id="contacto" href="contacto.html">CONTACTO</a>
+      </li>
+    </ul>
+</div>
+</nav>
+<div class="row align-self-center">
+  <div class="col">
+    <h1>¡Trabajemos juntos!</h1>
+      <h2>Para mas detalles sobre mi<br>trabajo podés ver mi Linkedin,<br>descargar mi CV o mandarme<br>un mensaje.</h2>
+    </div>
+    </div>
+    <div class="contacto1">
+    <div class="row">
+  <div class="col-sm-12">
+  <form action="index.php" method="post">
+    <!--controles del formulario-->
+    <div class="row">
+      <div class="col-sm-6 form-group">
+    <label for="txtNombre"><strong>Nombre</strong></label>
+    <input class="form-control" type="text"name="txtNombre"required id="txtNombre">
+  </div>
+  <div class="col-sm-6 form-group">
+    <label for="txtCorreo"><strong>Email</strong></label>
+    <input class="form-control" type="email"name="txtCorreo" required id="txtCorreo">
+  </div>
+</div>
+<div class="row">
+      <div class="col-sm-12 form-group">
+    <label for="txtNombre"><strong>Asunto</strong></label>
+    <input class="form-control" type="text"name="txtNombre"required id="txtNombre">
+  </div>
+  </div>
+<div class="row">
+    <div class="col-sm-12 form-group">
+        <label for="txtMensaje"><strong>Consulta</strong></label>
+    <textarea class="form-control" name="txtMensaje"required id="txtMensaje"></textarea>
+  </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+  </section>
+  <footer>
+  </footer>
+</div>
+</div>
+</div>
+</body>
+</html>
+
